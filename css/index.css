@@ -1,0 +1,107 @@
+:root {
+  --undertone: #d3d3d3;
+  --light: #808080;
+  --dark: #696969;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+.nav {
+  background-color: #c1c1c1;
+}
+  .header {
+    padding: 10px 16px;
+    background-color: #c1c1c1;
+    height: 100px;
+    color: #000000;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+
+  .sticky + .content {
+    padding-top: 150px;
+  }
+
+#buttons li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #000;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 150px;
+  line-height: 60px;
+}
+
+li a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  color: #c1c1c1;
+  text-decoration: none;
+
+}
+}
+.title {
+  background-color: beige;
+  margin: 0;
+}
+
+.scroll-spy {
+
+}
+
+.overview {
+  padding-top: ;
+}
+
+.early-life {
+  background-color: var(--undertone);
+}
+
+.early-life-header {
+  text-align: center;
+}
+
+.professional-life {
+  background-color: var(--light);
+}
+
+.professional-life-header {
+  text-align: center;
+}
+
+.personal-life {
+  background-color: var(--undertone);
+}
+
+.personal-life-header {
+  text-align: center;
+}
+
+.works-of-art {
+  background-color: var(--light);
+}
+
+.works-of-art-header {
+  text-align: center;
+}
+
+.old-age-and-death {
+  background-color: var(--undertone);
+}
+
+.old-age-and-death-header {
+  text-align: center;
+}
